@@ -1,0 +1,31 @@
+<div class="sidebar-box">
+  <h3 class="sidebar-box__heading">
+    Dnes tu byli
+  </h3>
+  <div class="sidebar-box__content notifier">
+  <ul class="tabs tabs1 clearfix" data-tabgroup="first-tab-group">
+    <li><a href="#tab1" class="active">Poslední aktivita</a></li>
+    <li><a href="#tab2">Poslední komentáře</a></li>
+  </ul>
+    <ul class="notifier__list">
+      {% for i in 0..3 %}
+      <li class="notifier__item">
+        <div class="avatar-image ">
+          <img src="dist/images/user-placeholder.png" alt="Avatar - @ntek">
+        </div>
+        <div class="notifier__content-block col">
+          <a href="/" class="notifier__username">Pěťá</a>
+          <time class="notifier__publish-date" datetime="">
+            před 11 min 49 sek
+          </time>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="notifier__footer">
+      <a href="#" class="btn btn--primary">
+        Kompletní seznam
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+.breadcrumb {
+  display: flex;
+  padding: 20px 28px;
+  border: 1px solid $color-border;
+  border-bottom: 1px dotted $color-border;
+  border-radius: 4px 4px 0 0;
+  background: #FFF;
+
+  &__icon {
+    font-size: 1.5em;
+    color: $brand-primary;
+    margin-right: 8px;
+  }
+
+  &__list {
+    @include list-reset();
+  }
+
+  &__item {
+    display: inline-block;
+
+    a {
+      color: $color-links;
+    }
+  }
+
+  &__separator {
+    font-size: .7em;
+  }
+
+  &__empty {
+    border-bottom: none;
+    padding: 4px;
+  }
+
+}

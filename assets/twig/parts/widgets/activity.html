@@ -1,0 +1,67 @@
+<div class="sidebar-box">
+  <h3 class="sidebar-box__heading">
+    Aktivita
+  </h3>
+  <div class="sidebar-box__content">
+    <ul class="tabs tabs1 clearfix" data-tabgroup="first-tab-group">
+      <li><a href="#tab1" class="active">Poslední aktivita</a></li>
+      <li><a href="#tab2">Poslední komentáře</a></li>
+    </ul>
+    <section id="first-tab-group" class="tabgroup">
+      <div id="tab1">
+        <ul class="activity">
+          {% for item in activity %}
+            <li class="activity__item activity__item--{{item.type}}">
+              {% if item.type == "podnik" %}
+                <div class="activity__type">
+                  <i class="icon-flag"></i>
+                  Podnik
+                </div>
+              {% elseif item.type == "article" %}
+                <div class="activity__type">
+                  <i class="icon-document"></i>
+                  Článek
+                </div>
+
+              {% endif%}
+
+              <a href="/" class="activity__title">{{item.title}}</a>
+
+              {% if item.updated %}
+                <div class="activity__updated">
+                  <i class="icon-warning"></i>
+                  aktualizováno
+                </div>
+              {% endif%}
+
+              {% if item.comments %}
+                <div class="activity__comments">
+                  <i class="icon-comment"></i>
+                  <span class="number">{{item.comments}}</span> nové komentáře
+                </div>
+              {% endif%}
+
+
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div id="tab2">
+        <ul class="notifier__list">
+          {% for message in notifier %}
+          <li class="notifier__item">
+            <div class="avatar-image ">
+              <img src="{{message.avatar}}" alt="Avatar - @ntek">
+            </div>
+            <div class="notifier__content-block col">
+              <a href="/" class="notifier__username">{{message.username}}</a>
+              <div class="notifier__content">{{message.message}}</div>
+
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>

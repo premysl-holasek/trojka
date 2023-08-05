@@ -1,0 +1,12 @@
+# trojka.libraries.yml
+global:
+  version: 1.x
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700:latin,latin-ext|Roboto+Slab': { type: external }
+      # '//use.fontawesome.com/releases/v5.0.8/css/all.css': { type: external, integrity: sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S, crossorigin: anonymous }
+      css/main.css: {}
+  js:
+    js/user.js: {}
+  dependencies:
+    - core/jquery

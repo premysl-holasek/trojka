@@ -1,0 +1,23 @@
+<div class="sidebar-box">
+  <h3 class="sidebar-box__heading">
+    Právě online
+  </h3>
+  <div class="sidebar-box__content online-users">
+    <div class="online-users__statusbar">
+      <i class="icon-users"></i>
+      Momentálně je online <strong>2 uživatelé</strong> a <strong>6 hostů</strong>.
+    </div>
+    <ul class="online-users__list">
+      {% for i in 0..3 %}
+      <li class="online-users__item">
+        <a href="" class="avatar-image">
+          <img src="dist/images/user-placeholder.png" alt="Avatar - @ntek">
+        </a>
+        <div class="online-users__content-block col">
+          <a href="/" class="notifier__username">Pěťá</a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

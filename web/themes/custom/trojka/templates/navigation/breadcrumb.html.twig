@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * Theme override for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ */
+#}
+{% if breadcrumb %}
+  <ul class="breadcrumb__list">
+  {% for item in breadcrumb %}
+    <li class="breadcrumb__item">
+      {% if item.url %}
+        <a href="{{ item.url }}">{{ item.text }}</a>
+      {% else %}
+        {{ item.text }}
+      {% endif %}
+    </li>
+    {% if not loop.last %}
+    <i class="breadcrumb__separator icon-chevron-right"></i>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}

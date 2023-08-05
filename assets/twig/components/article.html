@@ -1,0 +1,35 @@
+<article class="article article--secondary">
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="{{article.url}}" class="article__image">
+        <img src="{{article.image}}" alt="{{article.title}}">
+      </a>
+    </div>
+    <div class="col-xs-8">
+      <h2 class="article__title"><a href="{{article.url}}">{{article.title}}</a></h2>
+      <ul class="meta">
+        <li class="meta__item">
+          <i class="icon-calendar"></i>
+          <time>{{article.date}}</time>
+        </li>
+        <li class="meta__item">
+          <i class="icon-user"></i>
+          {{article.author}}
+        </li>
+        <li class="meta__item">
+          <i class="icon-comments"></i>
+          {{article.comments}} komentářů
+        </li>
+        {% if article.new_comments %}
+          <li class="meta__item">
+            <i class="icon-comment"></i>
+            {{article.new_comments}} nových komentářů
+          </li>
+        {% endif %}
+      </ul>
+      <p class="article__perex">{{article.perex}}</p>
+    </div>
+
+  </div>
+
+</article>

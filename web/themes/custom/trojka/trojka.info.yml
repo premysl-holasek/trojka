@@ -1,0 +1,17 @@
+name: Trojka
+type: theme
+version: '1.0'
+description: 'Trojka main theme.'
+core_version_requirement: ^9 || ^10
+libraries:
+  - trojka/global
+base theme: stable9
+logo: images/logo.png
+screenshot: images/screenshot.png
+regions:
+  top_nav: 'Top navigation'
+  site_header: 'Site header'
+  breadcrumbs: 'Breadcrumbs'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  site_footer: 'Site footer'

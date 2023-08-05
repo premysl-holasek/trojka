@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Claro theme.
+ */
+
+/**
+ * Implements theme_preprocess_node().
+ */
+function trojka_preprocess_node(&$variables) {
+    if ($variables['node']->getType() == 'article') {
+      $variables['comment_count'] = \Drupal::translation()->formatPlural($variables['node']->get('comment')->comment_count, '1 comment', '@count comments');
+    }
+}

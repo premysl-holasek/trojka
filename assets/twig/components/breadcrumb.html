@@ -1,0 +1,13 @@
+<div class="breadcrumb">
+  <i class="breadcrumb__icon icon-breadcrumb"></i>
+  <ul class="breadcrumb__list">
+    {% for item in breadrumb %}
+      {% if not loop.last %}
+      <li class="breadcrumb__item"><a href="{{item.url}}">{{item.name}}</a></li>
+      <i class="breadcrumb__separator icon-chevron-right"></i>
+      {% else %}
+      <li class="breadcrumb__item">{{item.name}}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

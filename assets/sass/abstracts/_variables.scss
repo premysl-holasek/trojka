@@ -1,0 +1,49 @@
+//Colors via Bootstrap
+
+$brand-primary:             #ca6d2f;
+$brand-success:             #27b157;
+$brand-info:                #2b91bf;
+$brand-info-dark:           #00577c;
+$brand-warning:             #f48d1e;
+$color-links:               #6c3e10;
+$color-border:              #cccccc;
+$color-button:              #949f8e;
+
+$gray-dark:                 #333333;
+$gray:                      #4a4a4a;
+$gray-light:                #686f78;
+$gray-lighter:              #9b9b9b;
+
+
+$gradient-primary-start:    #bd1a15;
+$gradient-primary-end:      #f65507;
+
+$gradient-heading-start:    #F69F07;
+$gradient-heading-end:      #D5311D;
+
+
+//Fonts
+$base-size: 16;
+$font-primary: 'Open Sans', sans-serif;
+$font-secondary: 'Roboto Slab', serif;
+// Breakpoints
+
+$container-max-widths: (
+  sm: 580px,
+  md: 768px,
+  lg: 960px,
+  xl: 1200px
+);
+
+
+
+$mq-breakpoints: (
+  mobile:            320px,
+  mobile-landscape:  480px,
+  tablet:            768px,
+  desktop:           992px,
+  wide:              1200px
+);
+
+$breakpoints: $mq-breakpoints;
+$navbar-breakpoint: breakpoint(desktop);

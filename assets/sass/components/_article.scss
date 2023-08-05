@@ -1,0 +1,78 @@
+.article {
+  margin-bottom: 24px;
+  float: left;
+
+  &__image {
+  float: left;
+    img {
+      width: 100%;
+    }
+  }
+
+
+  &__title {
+    font-family: $font-secondary;
+    font-size: (18/$base-size) * 1rem;
+
+    a {
+      @include link(colorOnly, $color-links, $brand-primary);
+    }
+  }
+
+  &__perex {
+    display: none;
+    font-size: (14/$base-size) * 1rem;
+
+
+  }
+
+  @include mq($until: 480px) {
+    div[class^="col-"] {
+      width: 100%;
+    }
+
+    &__image {
+      width: 100%;
+      margin-bottom: 1rem;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+
+      img {
+        transform: translateY(-50%);
+        top: 50%;
+        position: absolute;
+      }
+    }
+
+  }
+
+  @include mq($from: tablet) {
+
+    &__perex {
+      display: block;
+    }
+  }
+
+}
+
+
+.meta {
+  @include list-reset();
+  margin-bottom: 1rem;
+  float: left;
+  width: 100%;
+
+
+  &__item {
+    display: inline-block;
+    font-size: .9em;
+    width: 50%;
+    float: left;
+    margin-bottom: 4px;
+
+    i {
+      color: $brand-primary;
+    }
+  }
+}

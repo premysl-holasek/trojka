@@ -1,0 +1,19 @@
+.avatar-image {
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  width: 3em;
+  height: 3em;
+  border: 2px solid $color-border;
+  margin-right: 16px;
+  vertical-align: top;
+
+  img {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+}

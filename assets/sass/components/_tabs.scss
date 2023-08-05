@@ -1,0 +1,34 @@
+.tabs {
+  @include list-reset();
+  border-color: $color-border ;
+  border-style: solid;
+  border-width:  0 1px 1px 1px ;
+  background: #FFF;
+  li {
+    float:left;
+    width:50%;
+  }
+  a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    color: $color-button;
+    font-size: (12/$base-size) * 1rem;
+    padding: 16px;
+
+    &:hover, &.active {
+      background: rgba(#dae6d5,.25);
+      color: #343434;
+    }
+  }
+}
+.tabgroup {
+  div {
+  }
+}
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}

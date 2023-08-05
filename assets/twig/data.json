@@ -1,0 +1,93 @@
+{
+  "breadrumb": [
+    {
+      "url": "/",
+      "name": "Hlavní stránka"
+    },
+    {
+      "url": "/clanky",
+      "name": "Články"
+    },
+    {
+      "url": "/clanek",
+      "name": "Článek"
+    }
+  ],
+
+  "article": [
+    {
+      "title": "20. Opičí dráha – II. tělocvična Zimní 13, 10. prosince 2016 * K3",
+      "url": "detail-clanku.html",
+      "image": "https://placekitten.com/300/220",
+      "perex": "Já nevím, co mě to napadlo, když jsem dnešní podnik hodnotil. Zkrátka jsem viděl ty tuny hovězího loje, namazané na dubové podkladnice, a potom „tock“, a mohutný trup TITANICU klouže směrem k vodní... hladině. Ne že by tělocvična byla TITANICEM. To ne! Ale to, jak to pěkně klouzalo, to byla paráda...",
+      "date": "2.5.2015",
+      "author": "MOna",
+      "comments": "43",
+      "new_comments": "15"
+    },
+    {
+      "title": "18. oddílové RODEO - podZIMNÍ; oddílovky - 25. 11., 2. a 9. 12. 2016; ZŠ Prameny * K3",
+      "url": "detail-clanku.html",
+      "image": "https://placekitten.com/300/220",
+      "perex": "Jako lamentovat nad tím, že nám opět utekl termín RODEA už asi nemá smysl. Spoléhat na přívětivé počasí, co nám před dvěma roky umožnilo 13. prosince uspořádat celodenní klání na Podzámčí, na to si netroufnu. A RODEO neuskutečnit...",
+      "date": "2.5.2015",
+      "author": "MOna",
+      "comments": "5",
+      "new_comments": "5"
+    },
+    {
+      "title": "20. Opičí dráha – II. tělocvična Zimní 13, 10. prosince 2016 * K3",
+      "url": "detail-clanku.html",
+      "image": "https://placekitten.com/300/220",
+      "perex": "Já nevím, co mě to napadlo, když jsem dnešní podnik hodnotil. Zkrátka jsem viděl ty tuny hovězího loje, namazané na dubové podkladnice, a potom „tock“, a mohutný trup TITANICU klouže směrem k vodní... hladině. Ne že by tělocvična byla TITANICEM. To ne! Ale to, jak to pěkně klouzalo, to byla paráda...",
+      "date": "2.5.2015",
+      "author": "MOna",
+      "comments": "43"
+    },
+    {
+      "title": "18. oddílové RODEO - podZIMNÍ; oddílovky - 25. 11., 2. a 9. 12. 2016; ZŠ Prameny * K3",
+      "url": "detail-clanku.html",
+      "image": "https://placekitten.com/300/220",
+      "perex": "Jako lamentovat nad tím, že nám opět utekl termín RODEA už asi nemá smysl. Spoléhat na přívětivé počasí, co nám před dvěma roky umožnilo 13. prosince uspořádat celodenní klání na Podzámčí, na to si netroufnu. A RODEO neuskutečnit...",
+      "date": "2.5.2015",
+      "author": "MOna",
+      "comments": "5"
+    }
+  ],
+  "notifier": [
+    {
+      "avatar": "dist/images/user-placeholder.png",
+      "username": "Sobík",
+      "message": "omlouvám se nepříjdu celí týden jedu do Plzně",
+      "publish_date": "2008-02-14 20:00"
+    },
+    {
+      "avatar": "dist/images/user-placeholder.png",
+      "username": "Sobík",
+      "message": "omlouvám se nepříjdu celí týden jedu do Plzně",
+      "publish_date": "2008-02-14 20:00"
+    },
+    {
+      "avatar": "dist/images/user-placeholder.png",
+      "username": "Sobík",
+      "message": "omlouvám se nepříjdu celí týden jedu do Plzně",
+      "publish_date": "2008-02-14 20:00"
+    }
+  ],
+  "activity": [
+    {
+      "type": "article",
+      "title": "18. oddílové RODEO - podZIMNÍ;</br> oddílovky - 25. 11., 2. a 9. 12. 2016; ZŠ",
+      "updated": true,
+      "comments": 3,
+      "publish_date": "2008-02-14 20:00"
+    },
+    {
+      "type": "podnik",
+      "title": "Vánoční nadílka * K3",
+      "updated": false,
+      "comments": 2,
+      "publish_date": "2008-02-14 20:00"
+    }
+  ]
+}

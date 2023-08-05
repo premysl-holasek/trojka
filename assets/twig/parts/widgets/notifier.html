@@ -1,0 +1,28 @@
+<div class="sidebar-box">
+  <h3 class="sidebar-box__heading">
+    Oznamovatel
+  </h3>
+  <div class="sidebar-box__content notifier">
+    <ul class="notifier__list">
+      {% for message in notifier %}
+      <li class="notifier__item">
+        <div class="avatar-image ">
+          <img src="{{message.avatar}}" alt="Avatar - @ntek">
+        </div>
+        <div class="notifier__content-block col">
+          <a href="/" class="notifier__username">{{message.username}}</a>
+          <div class="notifier__content">{{message.message}}</div>
+          <time class="notifier__publish-date" datetime="{{message.publish_date}}">
+            {{message.publish_date|date("m.d.Y")}} {{message.publish_date|date("h:i")}}
+          </time>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="notifier__footer">
+      <a href="#" class="btn btn--primary">
+        Všechny oznamy
+      </a>
+    </div>
+  </div>
+</div>

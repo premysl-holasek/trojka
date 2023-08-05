@@ -92,3 +92,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+web/libraries
+web/modules/contrib
+web/themes/contrib

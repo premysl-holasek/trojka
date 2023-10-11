@@ -214,7 +214,7 @@
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drupal/redirect": "^1.8",
-        "drupal/webform": "^6.2@beta",
+        "drupal/webform": "^6.2",
         "drupal/webprofiler": "^10.0",
         "drush/drush": "^11.2",
         "jackmoore/colorbox": "^1.6",

@@ -209,14 +209,14 @@
         "drupal/entity_usage": "^2.0@beta",
         "drupal/filebrowser": "^3.1@RC",
         "drupal/gin": "^3.0@beta",
-        "drupal/inline_entity_form": "^2.0@RC",
+        "drupal/inline_entity_form": "^3.0@RC",
         "drupal/linkit": "^6.1",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drupal/redirect": "^1.8",
         "drupal/webform": "^6.2",
         "drupal/webprofiler": "^10.0",
-        "drush/drush": "^11.2",
+        "drush/drush": "^12",
         "jackmoore/colorbox": "^1.6",
         "jquery/inputmask": "*",
         "jquery/intl-tel-input": "*",
@@ -241,7 +241,8 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "oomphinc/composer-installers-extender": true
         },
         "sort-packages": true
     },

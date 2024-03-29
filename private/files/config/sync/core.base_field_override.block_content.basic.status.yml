@@ -1,0 +1,22 @@
+uuid: d22035f1-1209-46c7-8d69-70dd4c21a84c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: block_content.basic.status
+field_name: status
+entity_type: block_content
+bundle: basic
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

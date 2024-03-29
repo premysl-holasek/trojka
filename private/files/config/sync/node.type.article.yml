@@ -1,0 +1,20 @@
+uuid: f7ab30e8-6790-46ba-9973-9e21aa32678c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Článek
+type: article
+description: '<em>Články</em> lze použít pro stárnoucí obsah, jako jsou novinky, tiskové zprávy nebo blogy.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

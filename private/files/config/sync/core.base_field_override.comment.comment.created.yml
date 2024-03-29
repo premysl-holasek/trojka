@@ -1,0 +1,18 @@
+uuid: c220a90c-e514-4782-86db-932beafc26cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.created
+field_name: created
+entity_type: comment
+bundle: comment
+label: Vytvořeno
+description: 'Čas vytvoření komentáře.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

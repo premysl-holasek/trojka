@@ -1,0 +1,18 @@
+uuid: 41f588b1-f009-41c7-a872-8866f32edbe5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+id: node.forum.changed
+field_name: changed
+entity_type: node
+bundle: forum
+label: Změněno
+description: 'Čas, kdy byl uzel naposledy upraven.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: 1babce8f-67ba-451b-8990-140b12af9db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.club
+id: taxonomy_term.club.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: club
+label: Změněno
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

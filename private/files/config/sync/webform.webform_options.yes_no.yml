@@ -1,0 +1,16 @@
+uuid: 76ec29f3-4cdf-4279-b9b9-e0357d49f887
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: W88NYg31DbaVNQx1Uir_dwwXHVtF09QOq4VBGsH1Snk
+id: yes_no
+label: Yes/No
+category: Obecné
+likert: false
+options: |
+  Yes: Yes
+  No: No

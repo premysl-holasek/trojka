@@ -1,0 +1,18 @@
+uuid: a391d0c6-742a-4eda-b3e2-6f1d134e5fe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+id: comment.comment_forum.homepage
+field_name: homepage
+entity_type: comment
+bundle: comment_forum
+label: Homepage
+description: 'Domácí stránka autora komentáře.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

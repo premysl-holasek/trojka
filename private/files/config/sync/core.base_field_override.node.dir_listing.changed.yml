@@ -1,0 +1,18 @@
+uuid: cc30c574-b679-4749-a000-967c456beb0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+id: node.dir_listing.changed
+field_name: changed
+entity_type: node
+bundle: dir_listing
+label: Změněno
+description: 'Čas, kdy byl uzel naposledy upraven.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

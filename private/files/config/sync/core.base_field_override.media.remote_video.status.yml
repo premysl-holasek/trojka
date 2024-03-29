@@ -1,0 +1,22 @@
+uuid: ed020965-43ad-4445-b713-0e2abd7ba875
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.status
+field_name: status
+entity_type: media
+bundle: remote_video
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

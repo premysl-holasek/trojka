@@ -1,0 +1,10 @@
+uuid: cbc11a65-d7b2-4e8d-8c86-a33e6b70dfe1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AlzeyytA8InBgxIG9H2UDJYs3CG98Zj6yRsDKmlbZwA
+id: short
+label: 'Výchozí krátký formát data'
+locked: false
+pattern: 'm/d/Y - H:i'

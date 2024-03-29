@@ -1,0 +1,20 @@
+uuid: 24701dd1-bbe1-49b0-adc1-31a2cf43f954
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+id: comment.comment_forum.uid
+field_name: uid
+entity_type: comment
+bundle: comment_forum
+label: 'ID uživatele'
+description: 'Uživatelské ID autora komentáře.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,14 @@
+uuid: 3cfbc29a-62c2-45aa-8010-45d34999ef76
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: Mb_L3vE-0IBZH5s2rjpk2LNn0QHClQP9AARQdCmVLt4
+id: translations
+label: Translations
+category: Jazyk
+likert: false
+options: ''

@@ -1,0 +1,28 @@
+uuid: fe6520ca-93c2-4374-9917-3ed27e110b86
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.club.field_short
+    - taxonomy.vocabulary.club
+  module:
+    - text
+id: taxonomy_term.club.full
+targetEntityType: taxonomy_term
+bundle: club
+mode: full
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_short: true
+  langcode: true

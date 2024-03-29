@@ -1,0 +1,35 @@
+uuid: e48abfa0-d26a-480f-9396-301cd4b01c80
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraphs_library_item.summary
+  module:
+    - paragraphs_library
+_core:
+  default_config_hash: XstmA6WDBHCnXqwpkJ4hDHdn8ELRpS3gIl9yxbsjIyM
+id: paragraphs_library_item.paragraphs_library_item.summary
+targetEntityType: paragraphs_library_item
+bundle: paragraphs_library_item
+mode: summary
+content:
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  paragraphs:
+    type: library_item_summary
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

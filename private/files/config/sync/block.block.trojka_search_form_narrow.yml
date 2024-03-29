@@ -1,0 +1,23 @@
+uuid: c8678c8e-f155-4e44-80c9-476ff557f347
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - trojka
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: trojka_search_form_narrow
+theme: trojka
+region: sidebar
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 75ec8db9-b699-4636-ad2a-0684bdd94267
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.status
+field_name: status
+entity_type: media
+bundle: image
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 267e3a55-6d9a-4bae-acfa-aec3d082cc18
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.club
+  module:
+    - text
+id: taxonomy_term.club.description
+field_name: description
+entity_type: taxonomy_term
+bundle: club
+label: Popis
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

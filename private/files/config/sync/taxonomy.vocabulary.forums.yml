@@ -1,0 +1,13 @@
+uuid: 47c383b2-2540-4ef2-8c53-0052f4a3d2e9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+_core:
+  default_config_hash: ESGfHGDVWjnc2BiSFq58LOhBU6-f_2AGcwGjbqegYfo
+name: Fórum
+vid: forums
+description: 'Slovník pro kategorizaci fóra'
+weight: -10

@@ -1,0 +1,24 @@
+uuid: a4af87ad-c488-4256-937c-1acd9299b8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - views
+  theme:
+    - trojka
+id: block_events
+theme: trojka
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:events-block_1'
+settings:
+  id: 'views_block:events-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

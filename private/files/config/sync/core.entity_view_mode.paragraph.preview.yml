@@ -1,0 +1,13 @@
+uuid: 7432b2ad-b4e2-4f62-8d81-2919f53d3152
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: h3BeHVei4Lnyqbkao3YiF4KqoY-DhRvUNfEgKG8Rgjg
+id: paragraph.preview
+label: Náhled
+description: ''
+targetEntityType: paragraph
+cache: true

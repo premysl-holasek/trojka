@@ -1,0 +1,21 @@
+uuid: 1ee9e7b2-19f1-443f-b9fd-55622e3fa3e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.forums
+  module:
+    - text
+id: taxonomy_term.forums.description
+field_name: description
+entity_type: taxonomy_term
+bundle: forums
+label: Popis
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

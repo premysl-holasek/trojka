@@ -1,0 +1,15 @@
+uuid: b0e88e39-5c80-43ee-8908-629a42c0c270
+langcode: en
+status: true
+dependencies: {  }
+name: avatar
+label: 'Avatar (44x44)'
+effects:
+  207e712a-2db2-4c7b-8ac6-c428b7fed436:
+    uuid: 207e712a-2db2-4c7b-8ac6-c428b7fed436
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 44
+      height: 44
+      anchor: center-center

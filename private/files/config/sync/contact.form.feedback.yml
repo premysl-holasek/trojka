@@ -1,0 +1,14 @@
+uuid: fc270eb7-5521-439f-b027-c57eab9e656c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - premek@trunk.cz
+reply: ''
+weight: 0
+message: 'Vaše zpráva byla odeslána.'
+redirect: ''

@@ -9,10 +9,6 @@
         "chat": "https://www.drupal.org/node/314178"
     },
     "repositories": {
-        "composer": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
         "codemirror": {
             "type": "package",
             "package": {
@@ -32,14 +28,18 @@
         "colorbox": {
             "type": "package",
             "package": {
-              "name": "jackmoore/colorbox",
-              "version": "1.6.4",
-              "type": "drupal-library",
-              "dist": {
-                "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
-                "type": "zip"
-              }
+                "name": "jackmoore/colorbox",
+                "version": "1.6.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+                    "type": "zip"
+                }
             }
+        },
+        "composer": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
         },
         "jquery.inputmask": {
             "type": "package",
@@ -137,6 +137,27 @@
                 "license": "MIT"
             }
         },
+        "npm-assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "popperjs": {
+            "_webform": true,
+            "type": "package",
+            "package": {
+                "name": "popperjs/popperjs",
+                "version": "2.11.6",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "popperjs"
+                },
+                "dist": {
+                    "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz",
+                    "type": "tar"
+                },
+                "license": "MIT"
+            }
+        },
         "progress-tracker": {
             "type": "package",
             "package": {
@@ -185,9 +206,22 @@
                 "license": "MIT"
             }
         },
-        "npm-assets": {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
+        "tippyjs": {
+            "_webform": true,
+            "type": "package",
+            "package": {
+                "name": "tippyjs/tippyjs",
+                "version": "6.3.7",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "tippyjs"
+                },
+                "dist": {
+                    "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz",
+                    "type": "tar"
+                },
+                "license": "MIT"
+            }
         }
     },
     "require": {
@@ -226,9 +260,11 @@
         "jquery/timepicker": "*",
         "npm-asset/jquery-validation": "^1.17",
         "oomphinc/composer-installers-extender": "^2.0",
+        "popperjs/popperjs": "*",
         "progress-tracker/progress-tracker": "*",
         "signature_pad/signature_pad": "*",
-        "tabby/tabby": "*"
+        "tabby/tabby": "*",
+        "tippyjs/tippyjs": "*"
     },
     "conflict": {
         "drupal/drupal": "*"

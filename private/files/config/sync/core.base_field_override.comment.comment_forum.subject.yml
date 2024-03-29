@@ -1,0 +1,18 @@
+uuid: 45b5e15c-f1ba-486c-9b45-c4a29e10db00
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+id: comment.comment_forum.subject
+field_name: subject
+entity_type: comment
+bundle: comment_forum
+label: Předmět
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

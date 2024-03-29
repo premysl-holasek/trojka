@@ -1,0 +1,24 @@
+uuid: f71fbe56-56a9-48f4-b2bd-34ecfe3fa75b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - trojka
+id: trojka_views_block__comments_recent_block_1
+theme: trojka
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: '3'
+visibility: {  }

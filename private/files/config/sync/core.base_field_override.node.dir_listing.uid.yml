@@ -1,0 +1,20 @@
+uuid: cec43401-59dd-4bdc-b8e7-692e74e46094
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+id: node.dir_listing.uid
+field_name: uid
+entity_type: node
+bundle: dir_listing
+label: Autor
+description: 'Uživatelské jméno autora obsahu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

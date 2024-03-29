@@ -1,0 +1,24 @@
+uuid: a4f4a721-7e5d-4650-90a7-8e6d4b195e51
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pages
+label: pages
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  af0e1f1c-438c-4412-855c-1bab8438b5ef:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: af0e1f1c-438c-4412-855c-1bab8438b5ef
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -8
+relationships:
+  'node:langcode:language':
+    label: Jazyk

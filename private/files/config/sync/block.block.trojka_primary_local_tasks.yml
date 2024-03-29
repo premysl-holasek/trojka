@@ -1,0 +1,22 @@
+uuid: 22cbe0d4-db0d-4351-9ee4-c614afe4c144
+langcode: en
+status: true
+dependencies:
+  theme:
+    - trojka
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: trojka_primary_local_tasks
+theme: trojka
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

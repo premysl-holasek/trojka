@@ -1,0 +1,13 @@
+uuid: e5fb2172-6675-4a5b-b064-5ab7e18e7f27
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: C00dyL_W_5M0nFlgUB3lWUTUs96jn51Jw1MLHVEHZD0
+id: comment_publish_action
+label: 'Zveřejnit komentář'
+type: comment
+plugin: 'entity:publish_action:comment'
+configuration: {  }

@@ -1,0 +1,18 @@
+uuid: b2fc3042-4168-428a-acef-9398c784ee8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.changed
+field_name: changed
+entity_type: comment
+bundle: comment
+label: Změněno
+description: 'Čas poslední úpravy komentáře.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

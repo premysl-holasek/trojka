@@ -1,0 +1,22 @@
+uuid: 1ecd7c6e-60db-4bb7-b3e1-1b0b56a9704b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+id: node.dir_listing.sticky
+field_name: sticky
+entity_type: node
+bundle: dir_listing
+label: 'Přilepit nahoru v seznamu'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

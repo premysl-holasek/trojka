@@ -1,0 +1,22 @@
+uuid: f4517f30-694d-4001-97b6-bc2eb177e530
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.from_library
+id: paragraph.from_library.status
+field_name: status
+entity_type: paragraph
+bundle: from_library
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

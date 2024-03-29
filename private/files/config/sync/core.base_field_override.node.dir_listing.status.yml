@@ -1,0 +1,22 @@
+uuid: 937bf5a0-58b3-49c5-b0a3-afba9254ed6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+id: node.dir_listing.status
+field_name: status
+entity_type: node
+bundle: dir_listing
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

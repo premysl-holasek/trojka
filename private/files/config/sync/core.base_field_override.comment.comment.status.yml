@@ -1,0 +1,22 @@
+uuid: d9caf4b3-ebe6-4e64-abfd-9387185f63ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.status
+field_name: status
+entity_type: comment
+bundle: comment
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 3eb452da-6f92-4dff-a4c9-96acbbca0f78
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+id: node.dir_listing.promote
+field_name: promote
+entity_type: node
+bundle: dir_listing
+label: 'Zobrazit na titulní stránce'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

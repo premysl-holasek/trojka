@@ -1,0 +1,54 @@
+display:
+  default:
+    display_title: Nadřízené
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtr
+          reset_button_label: Reset
+          exposed_sorts_label: 'Řadit dle'
+          sort_asc_label: Vzestupně
+          sort_desc_label: Sestupně
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+          expose:
+            items_per_page_label: 'Položek na stránku'
+            items_per_page_options_all_label: '- Vše -'
+            offset_label: Posun
+      fields:
+        label:
+          label: Popisek
+          separator: ', '
+        type:
+          label: Typ
+          separator: ', '
+        paragraphs__target_id:
+          label: Paragraphs
+          separator: ', '
+        langcode:
+          label: Jazyk
+          separator: ', '
+        id:
+          label: ID
+          separator: ', '
+        count:
+          label: Použito
+        changed:
+          label: Změněno
+          separator: ', '
+        operations:
+          label: Operace
+      filters:
+        label:
+          expose:
+            label: Popisek
+          group_info:
+            label: Popisek
+        type:
+          expose:
+            label: Typ
+  page_1:
+    display_title: Stránka

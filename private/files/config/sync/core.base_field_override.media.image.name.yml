@@ -1,0 +1,20 @@
+uuid: 89b8ba50-0806-4f91-9f17-bf5251073529
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.name
+field_name: name
+entity_type: media
+bundle: image
+label: Jméno
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

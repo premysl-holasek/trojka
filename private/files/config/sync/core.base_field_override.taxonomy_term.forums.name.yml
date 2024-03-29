@@ -1,0 +1,18 @@
+uuid: 34cb9105-fdf5-4289-ba39-3f1222849074
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.forums
+id: taxonomy_term.forums.name
+field_name: name
+entity_type: taxonomy_term
+bundle: forums
+label: Jméno
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

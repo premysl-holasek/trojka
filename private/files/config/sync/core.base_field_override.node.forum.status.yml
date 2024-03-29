@@ -1,0 +1,22 @@
+uuid: 9cdfaad4-e985-48fd-a82e-afaf4c8a7f3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+id: node.forum.status
+field_name: status
+entity_type: node
+bundle: forum
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

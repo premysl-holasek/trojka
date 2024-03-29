@@ -1,0 +1,23 @@
+uuid: 40c75100-cce3-4c9a-bf29-d26236def486
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - trojka
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: trojka_syndicate
+theme: trojka
+region: site_footer
+weight: -5
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

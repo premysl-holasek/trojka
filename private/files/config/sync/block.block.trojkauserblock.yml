@@ -1,0 +1,20 @@
+uuid: 26e97f7c-1652-4269-8d35-628fff8c8bd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - trojka_user_block
+  theme:
+    - trojka
+id: trojkauserblock
+theme: trojka
+region: top_nav
+weight: 0
+provider: null
+plugin: trojka_user_block
+settings:
+  id: trojka_user_block
+  label: 'Trojka User Block'
+  label_display: '0'
+  provider: trojka_user_block
+visibility: {  }

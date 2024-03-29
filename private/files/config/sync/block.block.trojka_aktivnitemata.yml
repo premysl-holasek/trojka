@@ -1,0 +1,23 @@
+uuid: e37fcdfc-51f8-4722-994c-438a148b7de1
+langcode: en
+status: true
+dependencies:
+  module:
+    - forum
+  theme:
+    - trojka
+id: trojka_aktivnitemata
+theme: trojka
+region: sidebar
+weight: 0
+provider: null
+plugin: forum_active_block
+settings:
+  id: forum_active_block
+  label: 'Aktivní témata'
+  label_display: visible
+  provider: forum
+  properties:
+    administrative: '1'
+  block_count: 5
+visibility: {  }

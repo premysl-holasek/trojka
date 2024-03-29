@@ -1,0 +1,10 @@
+uuid: fab4c563-0035-4c07-9bb6-535de3013825
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Hlavní navigace'
+description: 'Odkazy na hlavní sekce webu'
+locked: true

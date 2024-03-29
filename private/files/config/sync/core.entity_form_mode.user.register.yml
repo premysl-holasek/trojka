@@ -1,0 +1,13 @@
+uuid: b9b805a2-6474-49a3-a2bc-600d02563c65
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Registrovat
+description: ''
+targetEntityType: user
+cache: true

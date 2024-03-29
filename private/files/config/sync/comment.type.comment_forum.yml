@@ -1,0 +1,13 @@
+uuid: c1a9acad-10c4-4e20-ad46-2b8a2230bac9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+_core:
+  default_config_hash: ASMYOUZX4c3xSgNTeKYhnhde-J9Zq899Z-gV2emoyr8
+id: comment_forum
+label: Comment_forum
+target_entity_type_id: node
+description: 'Výchozí pole komentáře'

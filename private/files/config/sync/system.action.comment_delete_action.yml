@@ -1,0 +1,13 @@
+uuid: 32c7a039-99da-4d71-927b-557f8daa0926
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
+id: comment_delete_action
+label: 'Smazat komentář'
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

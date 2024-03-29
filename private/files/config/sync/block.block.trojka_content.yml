@@ -1,0 +1,22 @@
+uuid: 21aab9a9-54c5-45da-89fe-44654f18a1a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - trojka
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: trojka_content
+theme: trojka
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

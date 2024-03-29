@@ -1,0 +1,21 @@
+uuid: 09d6cad1-4331-4614-ac4c-e3c774989ead
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_video
+    - media.type.remote_video
+_core:
+  default_config_hash: Eo4HHenV5iZat_kEWgr_wydD3TgwURMCzwt-7qIEyoM
+id: media.remote_video.field_media_oembed_video
+field_name: field_media_oembed_video
+entity_type: media
+bundle: remote_video
+label: 'Adresa URL videa'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

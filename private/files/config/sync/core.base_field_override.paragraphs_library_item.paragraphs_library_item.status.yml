@@ -1,0 +1,22 @@
+uuid: 4e6b3224-aacb-4ebb-8849-d2a509171f8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+id: paragraphs_library_item.paragraphs_library_item.status
+field_name: status
+entity_type: paragraphs_library_item
+bundle: paragraphs_library_item
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

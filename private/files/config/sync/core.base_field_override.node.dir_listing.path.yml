@@ -1,0 +1,20 @@
+uuid: 94d1c82e-2a76-4894-ad5b-49b8b6800ce4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+  module:
+    - path
+id: node.dir_listing.path
+field_name: path
+entity_type: node
+bundle: dir_listing
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,22 @@
+uuid: e1c71e9e-c380-4ae0-9f13-b2aaacc1a4d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+id: node.forum.sticky
+field_name: sticky
+entity_type: node
+bundle: forum
+label: 'Přilepit nahoru v seznamu'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

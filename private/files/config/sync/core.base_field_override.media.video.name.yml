@@ -1,0 +1,20 @@
+uuid: e065c34e-9a81-456b-a96f-f91f0230d763
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: Jméno
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

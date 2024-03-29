@@ -1,0 +1,22 @@
+uuid: 63963b87-e40b-426d-b641-b3251dce3414
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.club
+id: taxonomy_term.club.status
+field_name: status
+entity_type: taxonomy_term
+bundle: club
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

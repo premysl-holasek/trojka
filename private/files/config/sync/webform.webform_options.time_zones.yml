@@ -1,0 +1,14 @@
+uuid: 49962a86-98d5-4465-96cc-b3272dd56e55
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8rVcRXLnTAEoWs7zl8du-7RIUnayqUcGYnvb3JT21-o
+id: time_zones
+label: 'Časová pásma'
+category: 'Datum a čas'
+likert: false
+options: ''

@@ -1,0 +1,18 @@
+uuid: aeee81be-4fd2-4fca-843e-20bf7983b8ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.club
+id: taxonomy_term.club.name
+field_name: name
+entity_type: taxonomy_term
+bundle: club
+label: Jméno
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

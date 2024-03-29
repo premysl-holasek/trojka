@@ -1,0 +1,22 @@
+uuid: 14da0953-76af-40ea-8b44-ee241f7d19c0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - trojka
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: trojka_secondary_local_tasks
+theme: trojka
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

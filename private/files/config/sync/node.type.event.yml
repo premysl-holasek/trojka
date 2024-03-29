@@ -1,0 +1,17 @@
+uuid: c3606d4d-7f0a-4861-ab00-b2b4a8a1ee4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Podnik
+type: event
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

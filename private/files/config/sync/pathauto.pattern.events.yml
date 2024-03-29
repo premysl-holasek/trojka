@@ -1,0 +1,22 @@
+uuid: b7011097-64fc-4491-a11a-a794939f31ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: events
+label: events
+type: 'canonical_entities:node'
+pattern: 'podnik/[node:created:html_month]/[node:nid]-[node:title]'
+selection_criteria:
+  d8eb922e-7a02-4e49-8da1-ee784f43bebe:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d8eb922e-7a02-4e49-8da1-ee784f43bebe
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+selection_logic: and
+weight: -9
+relationships: {  }

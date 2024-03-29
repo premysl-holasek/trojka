@@ -1,0 +1,22 @@
+uuid: a6277c34-e512-4f38-9bd7-f30113936185
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.forums
+id: taxonomy_term.forums.status
+field_name: status
+entity_type: taxonomy_term
+bundle: forums
+label: Zveřejněno
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnuto
+  off_label: Vypnuto
+field_type: boolean

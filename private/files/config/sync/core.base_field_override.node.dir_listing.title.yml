@@ -1,0 +1,18 @@
+uuid: 6bca3573-b116-410f-a8b9-b9601917e9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dir_listing
+id: node.dir_listing.title
+field_name: title
+entity_type: node
+bundle: dir_listing
+label: Nadpis
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

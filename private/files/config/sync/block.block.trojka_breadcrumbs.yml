@@ -1,0 +1,22 @@
+uuid: c2adf31b-6747-48b3-bc91-de1c312de95a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - trojka
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: trojka_breadcrumbs
+theme: trojka
+region: breadcrumbs
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

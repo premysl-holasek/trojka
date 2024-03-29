@@ -1,0 +1,19 @@
+uuid: 7ed34ce8-321b-4326-8712-3b0af2aa9c8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place
+    - node.type.event
+id: node.event.field_place
+field_name: field_place
+entity_type: node
+bundle: event
+label: Místo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

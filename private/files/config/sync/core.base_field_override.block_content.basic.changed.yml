@@ -1,0 +1,18 @@
+uuid: 1686b678-3606-455f-9cca-861a6eb51e45
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: block_content.basic.changed
+field_name: changed
+entity_type: block_content
+bundle: basic
+label: Změněno
+description: 'The time that the content block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

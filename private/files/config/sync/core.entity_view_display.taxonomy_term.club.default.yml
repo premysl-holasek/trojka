@@ -1,0 +1,26 @@
+uuid: 3019abd4-0e0e-444e-a4cd-2555e02b70ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.club.field_short
+    - taxonomy.vocabulary.club
+id: taxonomy_term.club.default
+targetEntityType: taxonomy_term
+bundle: club
+mode: default
+content:
+  field_short:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

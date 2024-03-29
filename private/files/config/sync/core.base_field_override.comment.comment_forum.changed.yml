@@ -1,0 +1,18 @@
+uuid: a32ad06b-8c3f-4a43-b412-d6271046a52e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+id: comment.comment_forum.changed
+field_name: changed
+entity_type: comment
+bundle: comment_forum
+label: Změněno
+description: 'Čas poslední úpravy komentáře.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

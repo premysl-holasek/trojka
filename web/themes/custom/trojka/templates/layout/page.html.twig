@@ -61,7 +61,9 @@
         {{ page.breadcrumbs }}
         {% endif %}
         {% if page.content %}
+        <main role="main" class="site-main">
         {{ page.content }}
+        </main>
         {% endif %}
       </div>
       {% if page.sidebar %}

@@ -1552,8 +1552,7 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 0 1px 1px 1px;
   background: #FFF; }
   .tabs li {
-    float: left;
-    width: 50%; }
+    float: left; }
   .tabs a {
     display: block;
     text-align: center;
@@ -1562,7 +1561,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #949f8e;
     font-size: 0.75rem;
     padding: 16px; }
-    .tabs a:hover, .tabs a.active {
+    .tabs a:hover, .tabs a.active, .tabs a.is-active {
       background: rgba(218, 230, 213, 0.25);
       color: #343434; }
 
